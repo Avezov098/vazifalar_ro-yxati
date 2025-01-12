@@ -16,8 +16,8 @@ Loyihani o‘rnatish va ishga tushirish uchun quyidagi bosqichlarni bajaring:
 ### 1. Repozitoriyani klonlash
 
 ```bash
-git clone git remote add origin https://github.com/sayfillayev000/Task-menager.git
-cd Task-Manager
+git clone git remote add origin https://github.com/Avezov098/vazifalar_ro-yxati.git
+cd vazifalar_ro-yxati
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -26,13 +26,6 @@ npm install
 npm run dev
 ```
 
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=task_menager
-DB_USERNAME=root
-DB_PASSWORD=
 
 ```bash
 php artisan migrate --seed
